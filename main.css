@@ -1,0 +1,23 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0);
+}
+
+h1.title,
+p.subtitle {
+    color: rgb(200, 200, 200) !important;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 10px;
+}
+
+img.dead {
+    max-width: 500px;    
+}
